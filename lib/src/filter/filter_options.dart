@@ -10,7 +10,7 @@ import '../type.dart';
 class FilterOptionGroup {
   static final _defaultOrderOption = OrderOption(
     type: OrderOptionType.createDate,
-    asc: true,
+    asc: false,
   );
 
   FilterOptionGroup({
